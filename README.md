@@ -193,7 +193,7 @@ and
 [stream-serializer](https://github.com/dominictarr/stream-serializer/tree/898849423f7033e78e5ce04e6e2ad2dc2b27ebbe) 
 libraries, which form the core of this library. Thanks for your work!
 
-## WTF
+## WTF?
 
 (Why the Fork?)
 
