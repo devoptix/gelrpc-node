@@ -6,4 +6,4 @@ The MIT License || Apache License, Version 2.0
 For full license text see 
 
 - [LICENSE-MIT.md](LICENSE-MIT.md)
-- [LICENSE-MIT.md](LICENSE-APACHE2.md)
+- [LICENSE-APACHE2.md](LICENSE-APACHE2.md)
