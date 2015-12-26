@@ -1,0 +1,30 @@
+{
+  "name": "gelrpc-node",
+  "version": "1.0.0",
+  "description": "GelRpc for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devoptix/gelrpc-node.git"
+  },
+  "author": "Wayne Bloss <waynebloss@gmail.com> (https://github.com/devoptix)",
+  "license": "MIT",
+  "homepage": "https://github.com/devoptix/gelrpc-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/serializer/*.js && tape test/stream/*.js && tape test/namespace/*.js"
+  },
+  "files": [
+    "index.js",
+    "lib/index.js",
+    "lib/router.js",
+    "lib/serializer.js",
+    "lib/stream.js"
+  ],
+  "dependencies": {
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "tape": "^4.2.2"
+  }
+}
