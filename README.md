@@ -12,11 +12,11 @@ Table of Contents
 - [API Reference](#api-reference)
   - [gelrpc.router](#gelrpcrouter)
   - [gelrpc.serializer](#gelrpcserializer)
-  - [gelrpc.stream(route, opts)](#gelrpcstreamrouteopts)
-  - [Class: Stream](#classstream)
-    - [stream.wrap(methodNames)](#streamwrap)
-    - [stream.rpc(name, args, cb)](#streamrpc)
-    - [stream.pipe(stream)](#streampipe)
+  - [gelrpc.stream(route, opts)](#gelrpcstreamroute-opts)
+  - [Class: Stream](#class-stream)
+    - [stream.wrap(methodNames)](#streamwrapmethodnames)
+    - [stream.rpc(name, args, cb)](#streamrpcname-args-cb)
+    - [stream.pipe(stream)](#streampipestream)
 - [Ports](#ports)
 - [Credits](#credits)
 - [WTF?](#wtf)
@@ -96,7 +96,7 @@ Documentation for `gelrpc.serializer` will be coming shortly.
 
 ### gelrpc.stream(route, opts)
 
-Returns a [`Stream`](#classstream) that will call methods when written to.
+Returns a [`Stream`](#class-stream) that will call methods when written to.
 
 *Parameters*
 
