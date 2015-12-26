@@ -1,7 +1,7 @@
 Apache License, Version 2.0
 
-Copyright (c) 2015 Devoptix LLC : Modified work.
-Copyright (c) 2012 Dominic Tarr : Original work.
+- Copyright (c) 2015 Devoptix LLC : Modified work.
+- Copyright (c) 2012 Dominic Tarr : Original work.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

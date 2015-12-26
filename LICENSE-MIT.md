@@ -1,7 +1,7 @@
 The MIT License
 
-Copyright (c) 2015 Devoptix LLC : Modified work.
-Copyright (c) 2012 Dominic Tarr : Original work.
+- Copyright (c) 2015 Devoptix LLC : Modified work.
+- Copyright (c) 2012 Dominic Tarr : Original work.
 
 Permission is hereby granted, free of charge, 
 to any person obtaining a copy of this software and 
