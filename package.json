@@ -2,16 +2,20 @@
   "name": "gelrpc-node",
   "version": "1.0.0",
   "description": "GelRpc for Node.js",
+  "keywords": [
+    "rpc",
+    "stream",
+    "JSON"
+  ],
+  "homepage": "https://github.com/devoptix/gelrpc-node",
+  "license": "MIT",
+  "author": "Wayne Bloss <waynebloss@gmail.com> (https://github.com/devoptix)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devoptix/gelrpc-node.git"
   },
-  "author": "Wayne Bloss <waynebloss@gmail.com> (https://github.com/devoptix)",
-  "license": "MIT",
-  "homepage": "https://github.com/devoptix/gelrpc-node",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/serializer/*.js && tape test/stream/*.js && tape test/namespace/*.js"
+  "bugs": {
+    "url": "https://github.com/devoptix/gelrpc-node/issues"
   },
   "files": [
     "index.js",
@@ -20,6 +24,10 @@
     "lib/serializer.js",
     "lib/stream.js"
   ],
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/serializer/*.js && tape test/stream/*.js && tape test/namespace/*.js"
+  },
   "dependencies": {
     "through": "^2.3.8"
   },
