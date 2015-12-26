@@ -23,6 +23,12 @@ Table of Contents
 
 ## Usage
 
+*Install*
+
+`npm install gelrpc`
+
+*Example*
+
 ```js
 var gelrpc = require('gelrpc');
 
