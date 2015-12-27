@@ -9,6 +9,9 @@ Table of Contents
 ------------------
 - [Usage](#usage)
   - [Over TCP](#over-tcp)
+- [Message Protocol](#message-protocol)
+  - [Message Types](#message-types)
+  - [Message Framing](#message-framing)
 - [API Reference](#api-reference)
   - [gelrpc.router](#gelrpcrouter)
   - [gelrpc.serializer](#gelrpcserializer)
@@ -89,6 +92,27 @@ remote.hola('steve', function(err, res) {
   console.log(res);
 });
 ```
+
+## Message Protocol
+
+GelRpc is a stateless, light-weight remote procedure call (RPC) protocol. It is
+not restricted to one serialization format, but JSON is the default and only 
+implementation so far.
+
+### Message Types
+
+There are three basic message types: request, response and notification. 
+A request has a method (or path) name, argument data and a request id. 
+A response has result data and a request id. 
+A notification has a method (or path) name, argument data and a request id 
+value of `-1`. 
+
+![Figure 1](/docs/resources/message-types.png)
+
+### Message Framing
+
+Each message frame is a simple array with 2 or 3 elements in it. In a stream
+of JSON, each frame is separated by an EOL marker such as a line-feed.
 
 ## API Reference
 
