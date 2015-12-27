@@ -109,6 +109,8 @@ There are three basic message types: request, response and notification.
 - notification has a method/path, argument data and a request id 
 value of `-1`.
 
+*Figure 1. Message Types*
+
 ![Figure 1](/docs/resources/message-types.png)
 
 ### Message Framing
