@@ -102,10 +102,12 @@ implementation so far.
 ### Message Types
 
 There are three basic message types: request, response and notification. 
-A request has a method (or path) name, argument data and a request id. 
-A response has result data and a request id. 
-A notification has a method (or path) name, argument data and a request id 
-value of `-1`. 
+*A ...*
+
+- request has a method/path, argument data and a request id. 
+- response has result data and a request id. 
+- notification has a method/path, argument data and a request id 
+value of `-1`.
 
 ![Figure 1](/docs/resources/message-types.png)
 
