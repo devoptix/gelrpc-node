@@ -2,8 +2,7 @@
 //
 // # Namespace Export
 //
-var gelrpc = require('./lib/index.js');
-module.exports = gelrpc;
+module.exports = require('./lib/index.js');
 //
 // ## Members - Include all lib modules that fill in the namespace here.
 // 
